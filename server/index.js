@@ -12,8 +12,12 @@ app.use(express.json());
 app.use("/admin", adminRouter)
 app.use("/user", userRouter)
 
+// app.get('/', (req, res) => {
+//     res.send('Hello World');
+//     });
+
 app.get('/', (req, res) => {
-    res.send('Hello World');
+    res.html('Hello World');
     });
 // Connect to MongoDB
 // DONT MISUSE THIS THANKYOU!!
