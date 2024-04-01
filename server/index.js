@@ -17,7 +17,14 @@ app.use("/user", userRouter)
 //     });
 
 app.get('/', (req, res) => {
-    res.html('Hello World');
+    res.send(
+        `<h1>Welcome to the Courses API</h1>
+        <h2>Routes</h2>
+        <ul>
+            <li>/admin</li>
+            <li>/user</li>
+        </ul>`
+    )
     });
 // Connect to MongoDB
 // DONT MISUSE THIS THANKYOU!!
