@@ -22,6 +22,10 @@ app.get('/', (req, res) => {
         <h2>Routes</h2>
         <ul>
             <li>/admin</li>
+            <li>/admin</li>
+            <li>/admin</li>
+            <li>/admin</li>
+
         </ul>`
     )
     });
